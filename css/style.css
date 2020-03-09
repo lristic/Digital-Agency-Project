@@ -7796,6 +7796,7 @@ button.bg-dark:focus {
 .text-center {
   text-align: center !important; }
 
+
 @media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important; }
@@ -8207,11 +8208,16 @@ h1, h2, h3, h4, h5,
 
 .hero-wrap {
   width: 100%;
-  height: 850px;
+  height: 750px;
   position: inherit;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center; }
+@media(max-width: 767px){
+    .hero-wrap{
+        height: 650px;
+    }
+}
   .hero-wrap .overlay {
     position: absolute;
     top: 0;
@@ -8243,6 +8249,11 @@ h1, h2, h3, h4, h5,
 
 .slider-text {
   height: 850px; }
+@media(max-width: 767px){
+    .slider-text{
+        height:550px;
+    }
+}
   .slider-text h1 {
     font-size: 60px;
     color: #000000;
@@ -9096,8 +9107,13 @@ textarea.form-control {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 100px;
+  bottom: 10px;
   z-index: 2; }
+@media(max-width: 996px){
+        .mouse {
+            bottom: 30px;
+        }
+    }
 
 .mouse-icon {
   width: 80px;
