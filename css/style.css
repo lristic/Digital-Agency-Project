@@ -437,6 +437,21 @@ pre {
     color: inherit;
     word-break: normal; }
 
+.strelica{
+    height: 60px;
+    width:60px;
+    background-color:white;
+    border-radius:50px;
+    padding:20px;
+    border:2px solid black;
+}
+
+.strelica:hover{
+    border: 2px solid black;
+    background-color: #279AF1;
+    transition: 0.2s ease;
+}
+
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll; }
