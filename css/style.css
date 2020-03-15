@@ -9976,3 +9976,19 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+.package {
+    background-color: #d6ecfc;
+}
+
+.selected {
+    background-color: #279AF1;
+    color: white;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+}
+
+.selected h1 {
+    color: white;
+}
